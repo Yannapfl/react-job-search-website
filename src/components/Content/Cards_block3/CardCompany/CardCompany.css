@@ -1,0 +1,31 @@
+.card {
+    height: 320px;
+}
+
+.card h4 {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.card h1 {
+    position: absolute;
+    top: 7em;
+    left: 2em;
+}
+
+.card h4 {
+    position: absolute;
+    left: 3em;
+    bottom: 8em;
+}
+
+.card p {
+    position: absolute;
+    left: 3em;
+    bottom: 12em;
+}
+
+.arrow-company {
+    width: 11px;
+}
+

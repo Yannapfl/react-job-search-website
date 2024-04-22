@@ -1,0 +1,16 @@
+.wrapper-list a {
+    font: normal 17px/27px 'Work Sans';
+    color: #D3D3D3;
+}
+
+.wrapper-list li {
+    padding-bottom: 10px;
+}
+
+.wrapper-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+    width: 65%;
+}

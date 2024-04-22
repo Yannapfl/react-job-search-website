@@ -1,0 +1,20 @@
+.text__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.text__block h4 {
+    font-size: 18px;
+}
+
+.cards-block {
+    overflow: clip;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-left: 30px;
+}

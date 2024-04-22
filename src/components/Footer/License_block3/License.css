@@ -1,0 +1,11 @@
+.links-license a {
+    font: normal 12px/18px 'Work Sans';
+    color: white;
+    margin: 1em 2em;
+}
+
+.links-license {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}

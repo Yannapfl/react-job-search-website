@@ -1,0 +1,57 @@
+.steps-section h3 {
+    margin: 3em;
+    text-align: center;
+}
+
+.steps-section {
+    margin: 5em;
+}
+
+.step h4 {
+    font-size: 24px;
+}
+
+.steps-content-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.step {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    border-bottom: 1px solid rgb(195, 194, 194);
+}
+
+.steps-images-block {
+    position: relative;
+    width: 40%;
+
+    box-sizing: border-box;
+    background-color: #DACCFF;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 200px;
+}
+
+.img-back-steps {
+    position: absolute;
+    top: 3em;
+    left: 3em;
+    z-index: 1;
+}
+
+.img-front-steps {
+    position: absolute;
+    top: 5em;
+    left: 7em;
+    z-index: 10;
+}
+
+.step > .btn {
+    padding: 3px 10px;
+    margin-right: 15px;
+    font: normal 20px/26px 'Roboto';
+}

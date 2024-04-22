@@ -1,0 +1,23 @@
+.call-section h2 {
+    font: normal 75px/97.5px 'Roboto';
+}
+
+.call-section {
+    padding: 7em;
+    text-align: center;
+    background-image: url('../../../assests/images/background_cage_bottom.svg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.btn-group-call > .btn {
+    width: 244px;
+    height: 53px;
+    margin: 50px;
+    font: normal 14px/21px 'Roboto';
+    box-shadow: 7px 7px 0 rgba(0, 0, 0, 0.8);
+}
+
+.btn-join {
+    background-color: transparent;
+}

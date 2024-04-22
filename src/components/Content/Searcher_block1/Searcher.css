@@ -1,0 +1,81 @@
+.blocks {
+    height: 625px;
+    background-image: url('../../../assests/images/background_cage.svg');
+}
+
+.text-block {
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+    text-align: left;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.first-string {
+    margin-left: -2em;
+}
+.second-string {
+    margin-left: 1em;
+}
+
+.text-block h4 {
+    width: 40%;
+    height: max-content;
+}
+
+.form {
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 58%
+}
+
+.form-control {
+    padding: 1.1rem 12em;
+    border: 1px solid black;
+    border-radius: 0.4em;
+    background-color: white;
+    font-size: 14px;
+    font-family: 'Work Sans';
+    text-align: start;
+}
+
+.btn-primary {
+    margin: 0 20px;
+    padding: 1em 5em;
+    border: 1px solid black;
+    border-radius: 0.4em;
+    background-color: #EAFA35;
+    font-size: 18px;
+    font-family: 'Roboto';
+    text-align: start;
+}
+
+.circle-w {
+    position: absolute;
+    top: 7em;
+    right: 15em;
+}
+
+.circle-men {
+    position: absolute;
+    top: 16em;
+    right: 25em;
+}
+
+.circle-women {
+    position: absolute;
+    bottom: 8em;
+    left: 9em;
+}
+
+.circle-f {
+    position: absolute;
+    bottom: 1em;
+    left: 7em;
+}

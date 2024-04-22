@@ -1,0 +1,18 @@
+.btn-group-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.button-skill {
+    margin: 0.5em;
+    padding: 0.5em;
+    font: normal 28px/48px 'Work Sans', sans-serif;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+}

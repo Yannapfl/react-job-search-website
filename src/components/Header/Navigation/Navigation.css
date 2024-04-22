@@ -1,0 +1,11 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 150px;
+    padding: 0;
+    width: 70%;
+    height: 75px;
+
+    list-style-type:  none;
+}

@@ -1,0 +1,12 @@
+footer {
+    color: white;
+    background-color: black;
+}
+
+.img-footer {
+    display: block;
+    margin: 4em auto;
+    width: 80%;
+    align-content: center;
+    align-items: center;
+}
