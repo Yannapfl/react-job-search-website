@@ -1,5 +1,6 @@
-import CardCollection from './CardCollection/CardCollection';
 import './Collections.css';
+import PropTypes from 'prop-types';
+import CardCollection, { CardCollectionProptype } from './CardCollection/CardCollection';
 import arrow from '../../../assests/icons/arrow_searcher.svg';
 
 export default function Collections({ data }) {
@@ -10,8 +11,10 @@ export default function Collections({ data }) {
                 <h4>View all <img src={arrow} alt='#' /></h4>
             </div>
             <div className='cards-flex'>
-                {data.map((item) => <CardCollection data={item} />)}
+                {data.map((item, idx) => <CardCollection data={item} key={`card-collection-${idx}`} />)}
             </div>
         </div>
     )
 }
+
+Collections.propTypes = { data: PropTypes.arrayOf(CardCollectionProptype) };

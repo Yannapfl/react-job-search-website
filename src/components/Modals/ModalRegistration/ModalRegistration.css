@@ -1,0 +1,23 @@
+.registration-form label {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+
+    font: normal 14px/18px 'Roboto';
+}
+
+.input-registration {
+    padding: 1em 4em;
+    margin: 10px auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.btn-submit {
+    padding: 1em 3em;
+    margin: 20px auto;
+
+    background-color: #EAFA35;
+}

@@ -21,6 +21,8 @@
     box-sizing: border-box;
     background-color: #262626;
     border-radius: 5px;
+
+    transition: 3s;
 }
 
 .list-faqs {
@@ -33,8 +35,23 @@
     width: 80%;
 }
 
-.arrow-question{
+.arrow-question {
     position: absolute;
-    top: 3.5em;
+    top: 0.3em;
     right: 3em;
+
+    box-sizing: border-box;
+    padding: 2em;
+    border: none;
+
+    transition: 0.3s ease-in-out;
+}
+
+.down {
+    transform: rotate(180deg);
+}
+
+.hidden-answer {
+    overflow: hidden;
+    transition-delay: 500ms;
 }

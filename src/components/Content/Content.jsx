@@ -4,7 +4,7 @@ import Options from './Options_block2/Options';
 import Searcher from './Searcher_block1/Searcher';
 import { dataCardsJobs } from './Cards_block3/CardJobs/dataCardsJobs';
 import { dataCardsCompany } from './Cards_block3/CardCompany/dataCardCompany';
-import Skiils from './Skills_block4/Skills';
+import Skills from './Skills_block4/Skills';
 import { skillsData } from './Skills_block4/skillsData';
 import { collectionData } from './Collections_block5/CardCollection/collectionData';
 import Collections from './Collections_block5/Collections';
@@ -20,11 +20,11 @@ export default function Content() {
             <Searcher />
             <Options />
             <Cards dataJobs={dataCardsJobs} dataCompanies={dataCardsCompany} />
-            <Skiils data={skillsData} />
+            <Skills data={skillsData} />
             <Collections data={collectionData}/>
             <Steps data={stepsData} />
             <FAQs data={FAQsData} />
             <Call />
         </>
     )
-};
+}

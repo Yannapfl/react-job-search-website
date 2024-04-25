@@ -5,22 +5,22 @@ export const FAQsData = [
     },
     {
         question: 'What types of jobs are on Parallel?',
-        answer: 'text'
+        answer: 'text text text text text text text text text text text text '
     },
     {
         question: 'What does apply direct or get referred mean?',
-        answer: 'text'
+        answer: 'text text text text text text text text text text text text text text text text text text text text text text text text text '
     },
     {
         question: 'Is Parallel free?',
-        answer: 'text'
+        answer: 'text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text '
     },
     {
         question: 'Do I submit my resume or profile?',
-        answer: 'text'
+        answer: 'text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text '
     },
     {
         question: 'Will more companies & jobs be added?',
-        answer: 'text'
+        answer: 'text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text '
     }    
 ]

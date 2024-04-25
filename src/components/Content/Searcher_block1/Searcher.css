@@ -5,7 +5,6 @@
 
 .text-block {
     position: relative;
-    z-index: 1;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -59,23 +58,40 @@
 .circle-w {
     position: absolute;
     top: 7em;
-    right: 15em;
+    right: 15.5em;
+    animation: circle 5s linear infinite;
+    animation-delay: 12ms;
 }
 
 .circle-men {
     position: absolute;
-    top: 16em;
+    top: 15em;
     right: 25em;
+    animation: circle 10s linear infinite;
 }
 
 .circle-women {
     position: absolute;
     bottom: 8em;
     left: 9em;
+    animation: circle 5s linear infinite;
+    animation-delay: 1s;
 }
 
 .circle-f {
     position: absolute;
     bottom: 1em;
     left: 7em;
+    animation: circle 7s linear infinite;
+    animation-delay: 3s;
 }
+
+@keyframes circle {
+    from {
+      -webkit-transform: rotate(0deg) translateX(10px) rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg) translateX(10px) rotate(-360deg);
+    }
+}
+  

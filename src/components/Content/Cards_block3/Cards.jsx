@@ -1,7 +1,8 @@
 import './Cards.css';
-import CardJobs from './CardJobs/CardJobs.jsx';
+import PropTypes from 'prop-types';
+import CardJobs, { CardJobProptype } from './CardJobs/CardJobs.jsx';
 import arrow from '../../../assests/icons/arrow_searcher.svg';
-import CardCompany from './CardCompany/CardCompany.jsx';
+import CardCompany, { CardCompanyProptype } from './CardCompany/CardCompany.jsx';
 import { Element } from 'react-scroll';
 
 
@@ -14,7 +15,7 @@ export default function Cards({ dataJobs, dataCompanies }) {
                     <h4>View all <img src={arrow} alt='#' /></h4>
                 </div>
                 <div className='cards-block'>
-                    {dataJobs.map((card) => <CardJobs item={card} />)}
+                    {dataJobs.map((card, idx) => <CardJobs item={card} key={`card-job-${idx}`} />)}
                 </div>
             </section>
             <div className='section'>
@@ -23,10 +24,14 @@ export default function Cards({ dataJobs, dataCompanies }) {
                     <h4>View all <img src={arrow} alt='#' /></h4>
                 </div>
                 <div className='cards-block'>
-                    {dataCompanies.map((card) => <CardCompany item={card} />)}
+                    {dataCompanies.map((card, idx) => <CardCompany item={card} key={`card-company-${idx}`} />)}
                 </div>
             </div>
-
         </Element>
     )
 }
+
+Cards.propTypes = {
+    dataJobs: PropTypes.arrayOf(CardJobProptype).isRequired,
+    dataCompanies: PropTypes.arrayOf(CardCompanyProptype).isRequired,
+};

@@ -13,7 +13,7 @@ import logoMrBeast from '../../../../assests/icons/logo_mr_beast.svg';
 export const dataCardsJobs = [
     {
         logo: logoBreef,
-        tittle: 'Product Manager (Operations)',
+        title: 'Product Manager (Operations)',
         description: 'Breef · New York or Remote',
         employees: [employe1, employe2],
         textButton: 'Apply Direct',
@@ -21,7 +21,7 @@ export const dataCardsJobs = [
     },
     {
         logo: logoFair,
-        tittle: 'Senior Site Reliability Engineer',
+        title: 'Senior Site Reliability Engineer',
         description: 'Faire · Brazil',
         employees: [employe1, employe2],
         textButton: 'External Apply',
@@ -29,7 +29,7 @@ export const dataCardsJobs = [
     },
     {
         logo: logoGhia,
-        tittle: 'Event Worker',
+        title: 'Event Worker',
         description: 'Ghia · Los Angeles / New York City',
         employees: [employe3, employe4],
         textButton: 'External Apply',
@@ -37,7 +37,7 @@ export const dataCardsJobs = [
     },
     {
         logo: logoMrBeast,
-        tittle: 'Talent Acquisition/Recruiting',
+        title: 'Talent Acquisition/Recruiting',
         description: 'Mr. Beast · Greenville NC',
         employees: [employe5, employe6],
         textButton: 'External Apply',

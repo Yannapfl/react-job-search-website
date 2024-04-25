@@ -9,3 +9,7 @@
 
     list-style-type:  none;
 }
+
+.navigation li {
+    cursor: pointer;
+}
