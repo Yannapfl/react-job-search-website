@@ -1,15 +1,16 @@
+import { useState } from "react";
 import PropTypes from 'prop-types';
-import './ModalRegistration.css';
-import { useDispatch } from 'react-redux';
-import { actions as usersActions } from '../../../slices/usersSlice.js';
-import { useState } from 'react';
+import { useDispatch } from "react-redux";
+import { actions as companiesActions } from "../../../slices/companiesSlice";
 
-const ModalRegistration = ({ onSubmit }) => {
+const ModalCompany = ({ onSubmit }) => {
     const [formData, setFormData] = useState({
-        username: '',
+        companyName: '',
+        location: '',
+        industry: '',
         email: '',
         password: '',
-    });
+    })
 
     const dispatch = useDispatch();
 
@@ -18,22 +19,30 @@ const ModalRegistration = ({ onSubmit }) => {
         setFormData({
             ...formData,
             [name]: value,
-        });
-    };
+        })
+    }
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        dispatch(usersActions.addUser(formData));
+        dispatch(companiesActions.addCompany(formData));
         onSubmit(formData);
-    };
+    }
 
     return (
         <div className='registration-form'>
-            <h4>Sign up for User</h4>
+            <h4>Sign Up for Company</h4>
             <form onSubmit={handleSubmit}>
                 <label>
-                    Username
-                    <input type='text' name='username' className='input-registration' value={formData.username} onChange={handleInputChange} />
+                    Company Name
+                    <input type='text' name='companyName' className='input-registration' value={formData.companyName} onChange={handleInputChange} />
+                </label>
+                <label>
+                    Location
+                    <input type='text' name='location' className='input-registration' value={formData.location} onChange={handleInputChange} />
+                </label>
+                <label>
+                    Industry
+                    <input type='text' name='industry' className='input-registration' value={formData.industry} onChange={handleInputChange} />
                 </label>
                 <label>
                     Email
@@ -46,11 +55,11 @@ const ModalRegistration = ({ onSubmit }) => {
                 <button className='btn btn-submit' type='submit'>Submit</button>
             </form>
         </div>
-    );
+    )
 }
 
-ModalRegistration.propTypes = {
+ModalCompany.propTypes = {
     onSubmit: PropTypes.func.isRequired,
-  };
+}
 
-export default ModalRegistration;
+export default ModalCompany;

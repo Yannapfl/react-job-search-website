@@ -43,7 +43,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    padding: 20px;
+    padding: 1em 2em;
     border-radius: 10px;
     z-index: 1001;
 

@@ -1,5 +1,6 @@
 import ModalRegistration from '../../../Modals/ModalRegistration/ModalRegistration';
 import useModal from '../../../Modals/useModal';
+import { Link } from "react-scroll";
 import './LinksList.css';
 
 export default function LinksList() {
@@ -9,9 +10,15 @@ export default function LinksList() {
         <>
         <div className='wrapper-list'>
             <ul><p>Find Work</p>
-                <li><a href='###'>Explore Jobs</a></li>
-                <li><a href='###'>Discover Companies</a></li>
-                <li><a href='###'>Browse Collections</a></li>
+                <li>
+                    <Link to='section-block1' smooth={true} duration={1000}>Explore Jobs</Link>
+                </li>
+                <li>
+                    <Link to='section-find-jobs' smooth={true} duration={1000}>Discover Companies</Link>
+                </li>
+                <li>
+                    <Link to='section-collections' smooth={true} duration={1200}>Browse Collections</Link>
+                </li>
             </ul>
             <ul><p>Find People</p>
                 <li><a href='###'>Learn More</a></li>

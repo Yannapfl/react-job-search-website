@@ -21,3 +21,8 @@
     border: 2px dotted black;
     background-color: #EAFA35;
 }
+
+.button-skill:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}

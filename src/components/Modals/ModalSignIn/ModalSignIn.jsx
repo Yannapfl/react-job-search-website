@@ -4,8 +4,8 @@ import { useSelector } from 'react-redux';
 import { useState } from 'react';
 
 const ModalSignIn = ({ onSubmit }) => {
-    const { ids, entities } = useSelector((state) => state.users);
-    console.info(ids, entities);
+    const { ids: userIDs, entities: userEntities } = useSelector((state) => state.users);
+    const { ids: companyIDs, entities: companyEntities } = useSelector((state) => state.companies);
 
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -20,8 +20,9 @@ const ModalSignIn = ({ onSubmit }) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        const user = ids.map(id => entities[id]).find(user => user.email === email && user.password === password);
-        if (user) {
+        const user = userIDs.map(id => userEntities[id]).find(user => user.email === email && user.password === password);
+        const company = companyIDs.map(id => companyEntities[id]).find(company => company.email === email && company.password === password);
+        if (user || company) {
             onSubmit(true);
         } else {
             onSubmit(false);

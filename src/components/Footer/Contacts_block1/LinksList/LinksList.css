@@ -14,3 +14,7 @@
 
     width: 65%;
 }
+
+.wrapper-list li {
+    cursor: pointer;
+}

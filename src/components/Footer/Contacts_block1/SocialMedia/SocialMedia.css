@@ -16,9 +16,11 @@
 .input-email {
     padding: 1em 2em;
     border-radius: 5px;
-    background-color: white;
-    opacity: 10%;
+    background-color: rgb(50, 48, 48);
+    border: none;
     margin-right: 15px;
+
+    color: white;
 }
 
 .btn-email-footer {
