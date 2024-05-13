@@ -1,4 +1,12 @@
-<<<<<<< HEAD
+Hello! It's my first website, so don't be too harsh on me. Thx!
+Functions: 
+- registration forms for companies and users, as well as a login form (on Redux Toolkit)
+- active buttons
+- drop-down list
+  
+start: 
+- npm run dev
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
