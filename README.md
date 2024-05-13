@@ -1,10 +1,10 @@
-Hello! It's my first website, so don't be too harsh on me. Thx!
-Functions: 
+<h3>Hello! It's my first website, so don't be too harsh on me. Thx!<h3>
+<h4>Functions:</h4>
 - registration forms for companies and users, as well as a login form (on Redux Toolkit)
 - active buttons
 - drop-down list
   
-start: 
+**start:**
 - npm run dev
 
 # React + Vite
