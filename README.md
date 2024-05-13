@@ -1,6 +1,6 @@
 <h3>Hello! It's my first website, so don't be too harsh on me. Thx!<h3>
 <ul><h4>Functions:</h4>
-<li></li>registration forms for companies and users, as well as a login form (on Redux Toolkit)
+<li>registration forms for companies and users, as well as a login form (on Redux Toolkit)</li>
 <li>active buttons</li>
 <li>drop-down list</li>
 </ul>
