@@ -3,6 +3,7 @@
 - registration forms for companies and users, as well as a login form (on Redux Toolkit)
 - active buttons
 - drop-down list
+
   
 **start:**
 - npm run dev
